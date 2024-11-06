@@ -9,22 +9,23 @@ body{
 
 input{
    
-    border: 1px solid #5f9341;
+    border: 1px solid #419393;
     padding:7px;
     width: 100%;
+    border-radius: 2px;
     margin-bottom: 10px;
    
     
 }
 
 input:hover{
-    border-color: #5f9341;
+    border-color: #419393;
 }
 
 button{
-    background-color: #5f9341;
+    background-color: #419393;
     color: white;
-    border: 1px solid #5f9341;
+    border: 1px solid #419393;
     padding: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -32,10 +33,14 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    background-color: #09a3a3;
+}
+
 #delete-btn{
    
     background-color: white;
-    color:#5f9341;
+    color:#419393;
 }
 x
 
@@ -49,5 +54,5 @@ li{
     margin-top: 5px;
 }
 a{
-    color:#5f9341
+    color:#419393
 }
